@@ -1,0 +1,14 @@
+{
+  "name": "42 Dashboard Ultimate",
+  "description": "Logtime, Wallet et Amis.",
+  "uuid": "logtime@42",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA...",
+"shell-version": [
+  "42",
+  "43",
+  "44",
+  "45",
+  "46"
+],
+  "version": 2
+}

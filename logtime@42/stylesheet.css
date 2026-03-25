@@ -1,0 +1,153 @@
+.lgt-top-box { spacing: 0px; }
+
+.lgt-button-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 8px;
+}
+
+.lgt-online-badge {
+    background-color: #69f02a;
+    color: #000000;
+    border-radius: 99px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 1px 6px;
+    min-width: 16px;
+    text-align: center;
+    margin-right: 2px;
+    box-shadow: 0 0 15px rgba(0, 255, 162, 0.5);
+}
+
+/* MENU COMPACT (380px) */
+.lgt-popup-menu {
+    background-color: rgba(18, 18, 24, 0.98);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    margin-top: 10px;
+    min-width: 480px; 
+    padding: 9px; /* Padding réduit pour laisser max place au calendrier */
+}
+
+.lgt-main-time {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 27px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* STATS */
+.lgt-stats-grid { padding: 5px 0; spacing: 6px; }
+.lgt-stat-box {
+    background-color: rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 6px 2px;
+    text-align: center;
+}
+.lgt-stat-label { font-size: 10px; color: #8b8b9b; font-weight: 600; text-transform: uppercase; }
+.lgt-stat-value { font-size: 18px; font-weight: 900; color: #ffffff; margin-top: 2px; }
+
+.lgt-action-row {
+    margin: 10px 0 8px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.lgt-title {
+    font-size: 11px;
+    font-weight: 900;
+    color: #777;
+    letter-spacing: 1px;
+    margin-left: 5px;
+}
+
+.lgt-icon-btn {
+    padding: 6px 10px;
+    border-radius: 8px;
+    margin-left: 4px;
+}
+
+.warn
+{
+    color: rgb(255, 115, 0) !important;
+}
+.lgt-icon-btn:hover { background-color: rgba(255,255,255,0.1); }
+
+/* AMIS */
+.lgt-friend-container {
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+
+.lgt-friend-btn {
+    padding: 10px; 
+    width: 100%;
+    border-radius: 12px;
+}
+.lgt-friend-btn:hover { background-color: rgba(255,255,255,0.05); }
+
+.lgt-friend-avatar { margin-right: 15px; }
+
+.lgt-friend-name { font-weight: 800; color: #fff; font-size: 15px; }
+.lgt-friend-logtime { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #aaa; }
+.lgt-friend-status { font-family: 'JetBrains Mono', monospace; font-weight: bold; font-size: 13px; }
+
+.lgt-friend-details {
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+.lgt-detail-item { font-size: 11px; color: #ddd; font-weight: 600; margin-bottom: 2px; }
+
+.lgt-actions-box { margin-top: 10px; spacing: 6px; }
+.lgt-link-btn {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 6px;
+    padding: 6px;
+    width: 80px;
+    text-align: center;
+}
+.lgt-link-btn:hover { background-color: rgba(255,255,255,0.2); }
+.lgt-link-text { font-size: 11px; font-weight: bold; color: #eee; }
+
+/* CALENDRIER OPTIMISÉ (50px * 7 + gaps) */
+.lgt-cal-grid {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lgt-cal-day {
+    width: 52px; /* Taille maximale possible */
+    height: 46px;
+    border-radius: 6px;
+    padding-top: 5px;
+}
+
+.lgt-cal-day-num { font-size: 9px; font-weight: bold; opacity: 0.6; color: #fff; }
+.lgt-cal-day-val { font-size: 10px; font-weight: 800; color: #fff; }
+
+/* 5 NUANCES DE VERT */
+.lgt-cal-day-empty { background-color: rgba(255,255,255,0.03); color: #555; }
+
+/* 0h - 2h : Vert très sombre */
+.lgt-cal-day-1 { background-color: rgba(46, 213, 115, 0.15); } 
+
+/* 2h - 5h : Vert sombre */
+.lgt-cal-day-2 { background-color: rgba(46, 213, 115, 0.35); }
+
+/* 5h - 7h : Vert moyen */
+.lgt-cal-day-3 { background-color: rgba(46, 213, 115, 0.55); }
+
+/* 7h - 9h : Vert clair (Objectif) */
+.lgt-cal-day-4 { background-color: rgba(46, 213, 115, 0.80); color: #000; }
+
+/* 9h+ : Vert flash (Excellent) */
+.lgt-cal-day-5 { background-color: #2ed573; box-shadow: 0 0 10px rgba(46,213,115,0.4); color: #000; }
